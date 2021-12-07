@@ -1,0 +1,41 @@
+*, body, html   {
+    margin: 0;
+    padding: 0;
+}
+body    {
+    background: #e0e0e0;
+}
+
+header.container  {
+    display: block;
+    background: #454545;    
+}
+
+h1  {
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #e3e3e3;
+    line-height: 4.5rem;
+    word-spacing: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper    {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+    width: 90%;    
+}
+
+img {
+    width: 30%;
+    height: 500px;
+    border-radius: 2%;
+    margin-bottom: 2rem;
+    box-shadow:  15px 15px 30px #afafaf,
+             -15px -15px 10px #ffffff;    
+}
